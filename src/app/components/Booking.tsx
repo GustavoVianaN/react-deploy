@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import './booking.css';
 import SectionTitle from './SectionTitle';
-import Link from 'next/link';
 
 export default function Booking() {
     const initialState = {

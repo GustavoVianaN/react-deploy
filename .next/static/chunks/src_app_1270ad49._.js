@@ -808,7 +808,7 @@ function Menu() {
     const [data, setData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [items, setItems] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const getMenuData = ()=>{
-        fetch('/api/menu').then((res)=>res.json()).then((menu)=>setData(menu)).catch((e)=>console.log(e.message));
+        fetch('http://localhost:3000/api/menu').then((res)=>res.json()).then((menu)=>setData(menu)).catch((e)=>console.log(e.message));
     };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Menu.useEffect": ()=>{
@@ -1041,7 +1041,7 @@ function Specials() {
     const [data, setData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [items, setItems] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const getSpecialsData = ()=>{
-        fetch('/api/specials').then((res)=>res.json()).then((data)=>setData(data)).catch((e)=>console.log(e.message));
+        fetch('http://localhost:3000/api/specials').then((res)=>res.json()).then((data)=>setData(data)).catch((e)=>console.log(e.message));
     };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Specials.useEffect": ()=>{
@@ -1330,7 +1330,7 @@ function Events() {
     _s();
     const [slides, setSlides] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const getEventsData = ()=>{
-        fetch('/api/events').then((res)=>res.json()).then((data)=>setSlides(data)).catch((e)=>console.log(e.message));
+        fetch('http://localhost:3000/api/events').then((res)=>res.json()).then((data)=>setSlides(data)).catch((e)=>console.log(e.message));
     };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Events.useEffect": ()=>{
@@ -1835,7 +1835,7 @@ function Testimonials() {
     _s();
     const [slides, setSlides] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const getTestimonialsData = ()=>{
-        fetch('/api/testimonials').then((res)=>res.json()).then((data)=>setSlides(data)).catch((e)=>console.log(e.message));
+        fetch('http://localhost:3000/api/testimonials').then((res)=>res.json()).then((data)=>setSlides(data)).catch((e)=>console.log(e.message));
     };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Testimonials.useEffect": ()=>{
@@ -2040,7 +2040,7 @@ function Gallery() {
     const [images, setImages] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Gallery.useEffect": ()=>{
-            fetch('/api/gallery').then({
+            fetch('http://localhost:3000/api/gallery').then({
                 "Gallery.useEffect": (res)=>res.json()
             }["Gallery.useEffect"]).then({
                 "Gallery.useEffect": (data)=>setImages(data)

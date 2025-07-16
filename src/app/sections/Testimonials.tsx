@@ -19,7 +19,7 @@ export default function Testimonials() {
     const [slides, setSlides] = useState<any[]>([]);
 
     const getTestimonialsData = () => {
-        fetch('/api/testimonials')
+        fetch('http://localhost:3000/api/testimonials')
             .then(res => res.json())
             .then(data => setSlides(data))
             .catch(e => console.log(e.message));

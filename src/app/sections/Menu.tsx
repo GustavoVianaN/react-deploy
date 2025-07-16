@@ -12,7 +12,7 @@ export default function Menu() {
     const [items, setItems] = useState([]);
 
     const getMenuData = () => {
-        fetch('/api/menu')
+        fetch('http://localhost:3000/api/menu')
             .then(res => res.json())
             .then(menu => setData(menu))
             .catch(e => console.log(e.message));
