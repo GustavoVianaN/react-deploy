@@ -245,7 +245,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 async function getWhyUsData() {
-    const res = await fetch('http://localhost:3000/api/whyus');
+    const res = await fetch('/api/whyus');
     return res.json();
 }
 async function WhyUs() {
