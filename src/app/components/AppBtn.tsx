@@ -1,11 +1,11 @@
+"use client";
 import React from 'react';
 import './appBtn.css';
 
 export default function AppBtn({ name }: { name: string }) {
-    const handleScrollTo = (section: string) => {
-        // go to booking a table section
+    const handleScrollTo = (section: string) => { // <-- 'section' é definido aqui
+        // go to booking a table section <-- Mas não é usado aqui dentro
     };
-    
     return (
         <a
             className="app-btn scrollto d-none d-lg-flex"
