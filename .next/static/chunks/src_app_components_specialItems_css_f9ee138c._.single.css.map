@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/components/specialItems.css"],"sourcesContent":[".specials .tab-pane.active {\r\n  -webkit-animation: fadeIn 0.5s ease-out;\r\n  animation: fadeIn 0.5s ease-out;\r\n}\r\n\r\n.specials .details h3 {\r\n  font-size: 26px;\r\n  font-weight: 600;\r\n  margin-bottom: 20px;\r\n  color: #fff;\r\n}\r\n\r\n.specials .details p {\r\n  color: #aaaaaa;\r\n}\r\n\r\n.specials .details p:last-child {\r\n  margin-bottom: 0;\r\n}"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;;AAOA;;;;AAIA"}}]
-}

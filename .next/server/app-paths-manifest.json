@@ -1,11 +1,1 @@
-{
-  "/api/chefs/route": "app/api/chefs/route.js",
-  "/api/events/route": "app/api/events/route.js",
-  "/api/gallery/route": "app/api/gallery/route.js",
-  "/api/menu/route": "app/api/menu/route.js",
-  "/api/specials/route": "app/api/specials/route.js",
-  "/api/testimonials/route": "app/api/testimonials/route.js",
-  "/api/whyus/route": "app/api/whyus/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
-}
+{}

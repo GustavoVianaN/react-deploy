@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/components/eventsItem.css"],"sourcesContent":[".events .event-item {\r\n    color: #fff;\r\n}\r\n\r\n.events .event-item h3 {\r\n    font-weight: 600;\r\n    font-size: 26px;\r\n    color: #cda45e;\r\n}\r\n\r\n.events .event-item .price {\r\n    font-size: 26px;\r\n    font-family: 'Open Sans', sans-serif;\r\n    font-weight: 700;\r\n    margin-bottom: 15px;\r\n}\r\n\r\n.events .event-item .price span {\r\n    border-bottom: 2px solid #cda45e;\r\n}\r\n\r\n.events .event-item ul {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n.events .event-item ul li {\r\n    padding-bottom: 10px;\r\n}\r\n\r\n.events .event-item ul i {\r\n    font-size: 20px;\r\n    padding-right: 4px;\r\n    color: #cda45e;\r\n}\r\n\r\n.events .event-item p:last-child {\r\n    margin-bottom: 0;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;AAIA;;;;;;AAMA;;;;;;;AAOA;;;;AAIA;;;;;AAKA;;;;AAIA;;;;;;AAMA"}}]
-}
