@@ -1,0 +1,49 @@
+/* [project]/src/app/sections/events.css [app-client] (css) */
+.events {
+  background: url("../media/events-bg.20dc0011.jpg") center / cover no-repeat;
+  position: relative;
+}
+
+.events:before {
+  content: "";
+  background-color: #000c;
+  position: absolute;
+  inset: 0;
+}
+
+.events .section-title h2 {
+  color: #fff;
+}
+
+.events .container {
+  position: relative;
+}
+
+@media (width >= 1024px) {
+  .events {
+    background-attachment: fixed;
+  }
+}
+
+.events .events-carousel {
+  background: #ffffff14;
+  padding: 30px;
+}
+
+.events .swiper-pagination {
+  margin-top: 30px;
+  position: relative;
+}
+
+.events .swiper-pagination .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: #fff6;
+  width: 12px;
+  height: 12px;
+}
+
+.events .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #cda45e;
+}
+
+/*# sourceMappingURL=src_app_sections_events_css_f9ee138c._.single.css.map*/

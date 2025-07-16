@@ -1,0 +1,57 @@
+/* [project]/src/app/components/testimonialsitem.css [app-client] (css) */
+.testimonials .testimonial-item {
+  box-sizing: content-box;
+  min-height: 320px;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  z-index: 2;
+  border: 6px solid #fff3;
+  border-radius: 50%;
+  width: 90px;
+  margin: -40px 0 40px;
+  position: relative;
+}
+
+.testimonials .testimonial-item h3 {
+  color: #fff;
+  margin: 10px 0 5px 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.testimonials .testimonial-item h4 {
+  color: #fff9;
+  margin: 0 0 45px;
+  font-size: 14px;
+}
+
+.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+  color: #d3af71;
+  font-size: 26px;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+  display: inline-block;
+  position: relative;
+  left: -5px;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  right: -5px;
+}
+
+.testimonials .testimonial-item p {
+  z-index: 1;
+  background: #26231d;
+  border-radius: 6px;
+  margin: 0 15px 15px;
+  padding: 22px 20px 60px;
+  font-style: italic;
+  position: relative;
+}
+
+/*# sourceMappingURL=src_app_components_testimonialsitem_css_f9ee138c._.single.css.map*/

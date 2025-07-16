@@ -1,0 +1,22 @@
+/* [project]/src/app/components/specialItems.css [app-client] (css) */
+.specials .tab-pane.active {
+  -webkit-animation: .5s ease-out fadeIn;
+  animation: .5s ease-out fadeIn;
+}
+
+.specials .details h3 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.specials .details p {
+  color: #aaa;
+}
+
+.specials .details p:last-child {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=src_app_components_specialItems_css_f9ee138c._.single.css.map*/

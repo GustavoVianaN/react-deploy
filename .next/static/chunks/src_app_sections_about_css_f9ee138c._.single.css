@@ -1,0 +1,101 @@
+/* [project]/src/app/sections/about.css [app-client] (css) */
+.about {
+  background: url("../media/about-bg.af02adc7.jpg") center / cover;
+  padding: 80px 0;
+  position: relative;
+}
+
+.about:before {
+  content: "";
+  background: #000c;
+  position: absolute;
+  inset: 0;
+}
+
+.about .about-img {
+  transition: all .5s;
+  position: relative;
+}
+
+.about .about-img img {
+  border: 4px solid #fff3;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.about .about-img:before {
+  z-index: 1;
+  content: "";
+  border-top: 5px solid #cda45e;
+  border-left: 5px solid #cda45e;
+  width: 60px;
+  height: 60px;
+  transition: all .5s;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.about .about-img:after {
+  z-index: 2;
+  content: "";
+  border-bottom: 5px solid #cda45e;
+  border-right: 5px solid #cda45e;
+  width: 60px;
+  height: 60px;
+  transition: all .5s;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.about .about-img:hover {
+  transform: scale(1.03);
+}
+
+.about .about-img:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+.about .about-img:hover:after {
+  bottom: 10px;
+  right: 10px;
+}
+
+.about .content {
+  position: relative;
+}
+
+.about .content h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.about .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  color: #cda45e;
+  padding-right: 4px;
+  font-size: 20px;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 1024px) {
+  .about {
+    background-attachment: fixed;
+  }
+}
+
+/*# sourceMappingURL=src_app_sections_about_css_f9ee138c._.single.css.map*/

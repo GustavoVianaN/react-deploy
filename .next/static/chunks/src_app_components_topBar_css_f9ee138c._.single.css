@@ -1,0 +1,48 @@
+/* [project]/src/app/components/topBar.css [app-client] (css) */
+#topbar {
+  z-index: 996;
+  height: 40px;
+  font-size: 14px;
+  transition: all .5s;
+}
+
+#topbar.topbar-scrolled {
+  top: -40px;
+}
+
+#topbar .contact-info {
+  color: #d9ba85;
+  font-style: normal;
+}
+
+#topbar .contact-info i span {
+  color: #fff;
+  padding-left: 5px;
+}
+
+#topbar .languages ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+#topbar .languages ul li + li:before {
+  content: "/";
+  color: #ffffff80;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+#topbar .languages ul li a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+#topbar .languages ul li a:hover {
+  color: #d9ba85;
+}
+
+/*# sourceMappingURL=src_app_components_topBar_css_f9ee138c._.single.css.map*/

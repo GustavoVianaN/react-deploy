@@ -1,0 +1,81 @@
+/* [project]/src/app/components/chefsItem.css [app-client] (css) */
+.chefs .member {
+  text-align: center;
+  background: #343a40;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.chefs .member .member-info {
+  opacity: 0;
+  transition: all .2s;
+  position: absolute;
+  inset: 0;
+}
+
+.chefs .member .member-info-content {
+  transition: bottom .4s;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+
+.chefs .member .member-info-content h4 {
+  color: #fff;
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.chefs .member .member-info-content span {
+  color: #fff;
+  font-size: 13px;
+  font-style: italic;
+  display: block;
+}
+
+.chefs .member .social {
+  text-align: center;
+  height: 48px;
+  transition: bottom .4s ease-in-out;
+  position: absolute;
+  bottom: -38px;
+  left: 0;
+  right: 0;
+}
+
+.chefs .member .social a {
+  color: #fff;
+  margin: 0 10px;
+  transition: color .3s;
+  display: inline-block;
+}
+
+.chefs .member .social a:hover {
+  color: #cda45e;
+}
+
+.chefs .member .social i {
+  margin: 0 2px;
+  font-size: 18px;
+}
+
+.chefs .member:hover .member-info {
+  opacity: 1;
+  background: linear-gradient(0deg, #000000e6 0%, #0000 20%, #00d4ff00 100%);
+  transition: all .45s;
+}
+
+.chefs .member:hover .member-info-content {
+  transition: bottom .4s;
+  bottom: 60px;
+}
+
+.chefs .member:hover .social {
+  transition: bottom .4s ease-in-out;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=src_app_components_chefsItem_css_f9ee138c._.single.css.map*/

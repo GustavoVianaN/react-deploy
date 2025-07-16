@@ -1,0 +1,20 @@
+/* [project]/src/app/sections/testimonials.css [app-client] (css) */
+.testimonials .testimonials-swiper-pagination {
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+}
+
+.testimonials .testimonials-swiper-pagination .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: #fff6;
+  width: 12px;
+  height: 12px;
+}
+
+.testimonials .testimonials-swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #cd4a5e;
+}
+
+/*# sourceMappingURL=src_app_sections_testimonials_css_f9ee138c._.single.css.map*/

@@ -1,0 +1,35 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+body {
+  color: #fff !important;
+  background: #c8db89 !important;
+  font-family: Open Sans, sans-serif !important;
+}
+
+a {
+  color: #cd4a5e;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #d9ba85;
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Playfair Display, serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #1a1814;
+}
+
+/*# sourceMappingURL=src_app_globals_css_f9ee138c._.single.css.map*/

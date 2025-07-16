@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/GustavoVianadoNascim/OneDrive%20-%20WATCH%20TV%20ENTRETENIMENTOS%20S%20A/%C3%81rea%20de%20Trabalho/n/entrada/finingtuningteste/advocacia-website/src/app/components/TestMotion.tsx"],"sourcesContent":["// src/app/components/TestMotion.tsx\r\nimport { motion } from \"framer-motion\";\r\n\r\nexport default function TestMotion() {\r\n  return (\r\n    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>\r\n      Teste Motion Funciona!\r\n    </motion.div>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,oCAAoC;;;;;AACpC;;;AAEe,SAAS;IACtB,qBACE,8OAAC,wJAAA,CAAA,SAAM,CAAC,GAAG;QAAC,SAAS;YAAE,SAAS;QAAE;QAAG,SAAS;YAAE,SAAS;QAAE;kBAAG;;;;;;AAIlE","debugId":null}},
+    {"offset": {"line": 53, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/GustavoVianadoNascim/OneDrive%20-%20WATCH%20TV%20ENTRETENIMENTOS%20S%20A/%C3%81rea%20de%20Trabalho/n/entrada/finingtuningteste/advocacia-website/src/app/page.tsx"],"sourcesContent":["import TestMotion from './components/TestMotion';\n\nexport default function Home() {\n  return <TestMotion />;\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,8OAAC,uIAAA,CAAA,UAAU;;;;;AACpB","debugId":null}}]
+}

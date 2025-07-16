@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/sections/testimonials.css"],"sourcesContent":[".testimonials .testimonials-swiper-pagination {\r\n  margin-top: 30px;\r\n  position: relative;\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n\r\n.testimonials .testimonials-swiper-pagination .swiper-pagination-bullet {\r\n  width: 12px;\r\n  height: 12px;\r\n  background-color: rgba(255, 255, 255, 0.4);\r\n  opacity: 1;\r\n}\r\n\r\n.testimonials .testimonials-swiper-pagination .swiper-pagination-bullet-active {\r\n  background-color: #cd4a5e;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;;;AAOA"}}]
+}

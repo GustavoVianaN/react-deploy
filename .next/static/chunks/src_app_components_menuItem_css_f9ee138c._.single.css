@@ -1,0 +1,63 @@
+/* [project]/src/app/components/menuItem.css [app-client] (css) */
+.menu .menu-item {
+  margin-top: 50px;
+}
+
+.menu .menu-img {
+  float: left;
+  border: 5px solid #fff3;
+  border-radius: 50%;
+  width: 70px;
+}
+
+.menu .menu-content {
+  justify-content: space-between;
+  margin-left: 85px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu .menu-content:after {
+  content: "................................................................." "................................................................." ".................................................................";
+  z-index: 1;
+  color: #bab3a6;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  position: absolute;
+  top: -4px;
+  left: 20px;
+  right: 0;
+}
+
+.menu .menu-content a {
+  z-index: 3;
+  color: #fff;
+  background: #1a1814;
+  padding-right: 10px;
+  font-weight: 700;
+  transition: all .3s;
+  position: relative;
+}
+
+.menu .menu-content a:hover {
+  color: #cda45e;
+}
+
+.menu .menu-content span {
+  z-index: 3;
+  color: #cda45e;
+  background: #1a1814;
+  padding: 0 10px;
+  font-weight: 600;
+  position: relative;
+}
+
+.menu .menu-ingredients {
+  color: #ffffff80;
+  margin-left: 85px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=src_app_components_menuItem_css_f9ee138c._.single.css.map*/

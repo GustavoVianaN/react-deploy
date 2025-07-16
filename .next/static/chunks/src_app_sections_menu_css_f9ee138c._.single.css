@@ -1,0 +1,32 @@
+/* [project]/src/app/sections/menu.css [app-client] (css) */
+.menu #menu-filters {
+  text-align: center;
+  border-radius: 50px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.menu #menu-filters li {
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  padding: 8px 12px 10px;
+  font-family: Playfair Display, serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+}
+
+.menu #menu-filters li:hover, .menu #menu-filters li.filter-active {
+  color: #cda45e;
+}
+
+.menu #menu-filters li:last-child {
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=src_app_sections_menu_css_f9ee138c._.single.css.map*/

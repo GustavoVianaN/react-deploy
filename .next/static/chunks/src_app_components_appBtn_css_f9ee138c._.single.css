@@ -1,0 +1,28 @@
+/* [project]/src/app/components/appBtn.css [app-client] (css) */
+.app-btn {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: 2px solid #cda45e;
+  border-radius: 50px;
+  margin: 0 0 15px;
+  padding: 8px 25px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all .3s;
+}
+
+.app-btn:hover {
+  color: #fff;
+  background: #cda45e;
+}
+
+@media (width <= 992px) {
+  .app-btn {
+    margin: 0 15px;
+    padding: 8px 20px;
+  }
+}
+
+/*# sourceMappingURL=src_app_components_appBtn_css_f9ee138c._.single.css.map*/

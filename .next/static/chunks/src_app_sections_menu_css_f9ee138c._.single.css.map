@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/sections/menu.css"],"sourcesContent":["/*--------------------------------------------------------------\r\n# Menu Filters\r\n--------------------------------------------------------------*/\r\n.menu #menu-filters {\r\n  padding: 0;\r\n  margin: 0 auto 0 auto;\r\n  list-style: none;\r\n  text-align: center;\r\n  border-radius: 50px;\r\n}\r\n\r\n.menu #menu-filters li {\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  padding: 8px 12px 10px 12px;\r\n  font-size: 16px;\r\n  font-weight: 500;\r\n  line-height: 1;\r\n  color: #fff;\r\n  margin-bottom: 10px;\r\n  transition: all ease-in-out 0.3s;\r\n  border-radius: 50px;\r\n  font-family: 'Playfair Display', serif;\r\n}\r\n\r\n.menu #menu-filters li:hover,\r\n.menu #menu-filters li.filter-active {\r\n  color: #cda45e;\r\n}\r\n\r\n.menu #menu-filters li:last-child {\r\n  margin-right: 0;\r\n}"],"names":[],"mappings":"AAGA;;;;;;;;AAQA;;;;;;;;;;;;;;AAcA;;;;AAKA"}}]
+}
